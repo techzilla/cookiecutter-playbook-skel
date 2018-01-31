@@ -1,0 +1,12 @@
+{
+    "project_name": "playbook-example",
+    "project_version": "0.0.1",
+    "project_short_description": "A short description of the project",
+    "user_full_name": "John Doe",
+    "user_email": "email@example.com",
+    "_copy_without_render": [
+        "*.py",
+        "ansible.cfg",
+        "playbooks"
+    ]
+}

@@ -1,0 +1,7 @@
+---
+
+- hosts: "{{ hosts_override | default('all:!localhost') }}"
+
+  tasks:
+    - name: Host Ping
+      ping:

@@ -1,0 +1,7 @@
+---
+
+- hosts: "{{ hosts_override | default('example') }}"
+
+  tasks:
+    - debug:
+        msg: "inventory_hostname={{ inventory_hostname }} ansible_host={{ ansible_host }}"
